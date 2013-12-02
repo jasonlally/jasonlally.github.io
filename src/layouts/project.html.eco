@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<div class="container">
+<article id="project" class="project">
+	<h1><%= @document.title %></h1>
+	<div class="post-content"><%- @content %></div>
+</article>
+</div>

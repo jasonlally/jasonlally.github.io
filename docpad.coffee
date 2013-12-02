@@ -41,7 +41,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
+				"/styles/bootstrap.css"
 				"/styles/style.css"
 			]
 
@@ -49,7 +49,7 @@ docpadConfig = {
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"/vendor/bootstrap/dist/js/bootstrap.min.js"
 				"/scripts/script.js"
 			]
 
@@ -85,11 +85,12 @@ docpadConfig = {
 	# These are special collections that our website makes available to us
 
 	collections:
-		pages: (database) ->
-			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
-
-		posts: (database) ->
-			database.findAllLive({tags:$has:'post'}, [date:-1])
+		pages: ->
+      @getCollection("html").findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+		posts: ->
+      @getCollection("html").findAllLive({tags:$has:'post'}, [date:-1])
+    projects: ->
+      @getCollection("html").findAllLive({layout:'project'})
 
 
 	# =================================
@@ -99,8 +100,8 @@ docpadConfig = {
 		downloader:
 			downloads: [
 				{
-					name: 'Twitter Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
+					name: 'Bootstrap'
+					path: 'src/files/vendor/bootstrap'
 					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
 					tarExtractClean: true
 				}
