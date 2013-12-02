@@ -2,6 +2,7 @@
 title: Blog
 layout: page
 pageOrder: 2
+url: /blog
 ---
 
 <nav class="linklist">

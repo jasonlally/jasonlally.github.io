@@ -6,4 +6,12 @@ layout: default
 	<h1><%= @document.title %></h1>
 	<div class="post-content"><%- @content %></div>
 </article>
+
+  <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
+  <p>
+  <h3><%= file.title or file.name %></h3>
+  <img src="<%= file.url %>" title="<%= file.title or file.name %>" />
+  </p>
+  <% end %>
+
 </div>
