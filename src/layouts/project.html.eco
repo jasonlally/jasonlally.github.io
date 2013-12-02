@@ -2,16 +2,21 @@
 layout: default
 ---
 <div class="container">
-<article id="project" class="project">
-	<h1><%= @document.title %></h1>
-	<div class="post-content"><%- @content %></div>
-</article>
+  <div class="row">
+    <div class="col-md-7">
+      <article id="project" class="project">
+        <h1><%= @document.title %></h1>
+        <div class="post-content"><%- @content %></div>
+        <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
+        <p>
+        <h3><%= file.title or file.name %></h3>
+        <img src="<%= file.url %>" title="<%= file.title or file.name %>" />
+        </p>
+        <% end %>
+      </article>
+    </div>
+    <div class="col-md-5">
 
-  <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
-  <p>
-  <h3><%= file.title or file.name %></h3>
-  <img src="<%= file.url %>" title="<%= file.title or file.name %>" />
-  </p>
-  <% end %>
-
+    </div>
+  </div>
 </div>

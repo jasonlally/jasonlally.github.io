@@ -6,11 +6,19 @@ title: 'Home'
 <!-- Primary marketing message or call to action -->
 <div class="jumbotron orange">
   <div class="container">
-    <h1>Hello.<i class="fa fa-comment-o" style="position: relative; top: -.7em"></i></h1>
-
     <div class="row">
-      <p class="col-sm-7 col-lg-6">I'm Jason&mdash;an urban planner, programmer, and dabbler in design. I build tools to connect
-        and collaborate.</p>
+      <div class="col-sm-7 col-lg-6">
+        <h1>Hello.<i class="fa fa-comment-o" style="position: relative; top: -.7em"></i></h1>
+        <p>I'm Jason&mdash;an urban planner, programmer, and dabbler in design. I build tools to connect
+          and collaborate.</p>
+      </div>
+      <div class="col-sm-5 col-lg-6 social-media">
+          <i class="fa fa-twitter-square fa-4x"></i>
+          <i class="fa fa-github-square fa-4x"></i>
+          <i class="fa fa-linkedin-square fa-4x"></i>
+          <i class="fa fa-facebook-square fa-4x"></i>
+          <i class="fa fa-google-plus-square fa-4x"></i>
+      </div>
     </div>
   </div>
 </div>
