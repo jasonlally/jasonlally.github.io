@@ -6,12 +6,19 @@ layout: default
     <div class="col-md-7">
       <article id="project" class="project">
         <h1><%= @document.title %></h1>
-        <div class="post-content"><%- @content %></div>
-        <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
-        <p>
-        <h3><%= file.title or file.name %></h3>
-        <img src="<%= file.url %>" title="<%= file.title or file.name %>" />
-        </p>
+
+        <div class="post-content">
+          <%- @content %>
+        </div>
+        <% if @getDocument().getAssociatedFiles(): %>
+        <h2>Gallery</h2>
+        <div class="image_gallery row">
+          <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
+            <a class="fancybox col-sm-4" rel="gallery" data-lightbox="gallery" href="<%= file.url %>" title="<%= file.title or file.name %>">
+              <img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 200, h: 200 }) %>" title="<%= file.name.replace /-/," " %>"/>
+            </a>
+          <% end %>
+        </div>
         <% end %>
       </article>
     </div>

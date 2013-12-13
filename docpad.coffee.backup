@@ -14,6 +14,10 @@ docpadConfig = {
 			# The production url of our website
 			url: "http://jasonlally.com"
 
+			# Here are some old site urls that you would like to redirect from
+			oldUrls: [
+			]
+
 			# The default title of our website
 			title: "Jason Lally"
 
@@ -75,37 +79,35 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
-        getThisThing: ->
-            @document.description or @site.description
-    # =================================
+	# =================================
 	# Collections
 	# These are special collections that our website makes available to us
 
 	collections:
 		pages: ->
-            @getCollection("html").findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
-
+      @getCollection("html").findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 		posts: ->
-            @getCollection("html").findAllLive({tags:$has:'post'}, [date:-1])
-
-        projects: ->
-            @getCollection("html").findAllLive({layout:'project'})
+      @getCollection("html").findAllLive({tags:$has:'post'}, [date:-1])
+    projects: ->
+      @getCollection("html").findAllLive({layout:'project'})
 
 
 	# =================================
 	# Plugins
 
 	plugins:
+    ghpages:
+      deployRemote: 'origin'
+      deployBranch: 'master'
 		downloader:
 			downloads: [
 				{
-					name: 'Twitter Bootstrap'
+					name: 'Bootstrap'
 					path: 'src/files/vendor/bootstrap'
 					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
 					tarExtractClean: true
 				}
 			]
-
 
 	# =================================
 	# DocPad Events
@@ -135,6 +137,7 @@ docpadConfig = {
 				else
 					next()
 }
+
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
