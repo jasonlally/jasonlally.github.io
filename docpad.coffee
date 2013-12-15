@@ -75,8 +75,9 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
-        getThisThing: ->
-            @document.description or @site.description
+        getPreparedKeywords2: ->
+            # Merge the document keywords with the site keywords
+            @site.keywords.concat(@document.keywords or []).join(', ')
     # =================================
 	# Collections
 	# These are special collections that our website makes available to us
