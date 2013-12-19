@@ -34,6 +34,7 @@ title: 'Home'
         <li><span><%= document.date.toDateString() %></span>
           &raquo;
           <a href="<%= document.url %>"><%= document.title %></a></li>
+          <img src="/images/projects/<%= document.image %>"/>
         <% end %>
       </nav>
     </div>

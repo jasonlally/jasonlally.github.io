@@ -24,7 +24,7 @@ docpadConfig = {
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				jason lally, urban planning, node.js, node, docpad, planning technology, civic technology, civic innovation, planning innovation
+				jason lally,urban planning,node.js,node,docpad,planning technology,civic technology,civic innovation,planning innovation
 				"""
 
 			# The website author's name
@@ -45,7 +45,7 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/bootstrap/dist/js/bootstrap.min.js"
-                "/vendor/lightbox/js/lightbox-2.6.min.js"
+        "/vendor/lightbox/js/lightbox-2.6.min.js"
 				"/scripts/script.js"
 			]
 
@@ -53,6 +53,18 @@ docpadConfig = {
 
 		# -----------------------------
 		# Helper Functions
+		parseMarkdown: (str) ->
+      marked(str)
+
+    generateSummary: (post) -> 
+      description = post.description
+      if description then @parseMarkdown(description) else @contentTrim(@parseMarkdown(post.content))
+
+    formatDate: (date) -> 
+    	moment(date).format('Do MMMM YYYY')
+
+    contentTrim: (str) -> 
+    	if str.length > 300 then str.slice(0, 297) + '...' else str
 
 		# Get the prepared site/document title
 		# Often we would like to specify particular formatting to our page's title
@@ -75,9 +87,6 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
-        getPreparedKeywords2: ->
-            # Merge the document keywords with the site keywords
-            @site.keywords.concat(@document.keywords or []).join(', ')
     # =================================
 	# Collections
 	# These are special collections that our website makes available to us
@@ -97,6 +106,9 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
+        ghpages:
+            deployRemote: 'origin'
+            deployBranch: 'master'
 		downloader:
 			downloads: [
 				{
