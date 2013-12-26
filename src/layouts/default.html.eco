@@ -79,11 +79,7 @@
 <div class="footer-wrapper">
   <div class="container">
     <footer>
-      <p class="pull-left">&copy; Jason Lally <%- (new Date()).getFullYear() %></p>
-
-      <p class="pull-right">
-        This website was last updated at <%= @site.date.toISOString() %>
-      </p>
+      <p class="pull-left">Unless stated otherwise; all works are &copy; Jason Lally <%- (new Date()).getFullYear() %> and licensed permissively under the <a href="http://creativecommons.org/licenses/MIT/">MIT License</a> for code and the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a> for everything else (including content, media and design), enjoy!</p>
     </footer>
   </div>
 </div>

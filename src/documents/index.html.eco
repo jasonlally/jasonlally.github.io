@@ -29,14 +29,15 @@ title: 'Home'
   <div class="row">
     <div class="col-lg-12">
       <h2>Projects</h2>
-      <nav class="linklist">
+        <div class="row">
         <% for document in @getCollection('projects').toJSON(): %>
-        <li><span><%= document.date.toDateString() %></span>
-          &raquo;
-          <a href="<%= document.url %>"><%= document.title %></a></li>
-          <img src="/images/projects/<%= document.image %>"/>
+          <div class="col-md-3">
+            <a href="<%= document.url %>">
+          <img src="/images/projects/<%= document.image %>" class="img-responsive"/>
+          <%= document.title %></a></li>
+          </div>
         <% end %>
-      </nav>
+        </div>
     </div>
   </div>
 
@@ -54,8 +55,10 @@ title: 'Home'
   </div>
 
   <div class="row">
-    <div class="col-lg-12">
+    <div class="col-md-8">
       <h2>About</h2>
+      <p>I am an urban planner with a background in the information sciences.  I earned my Bachelor’s Degree in Information Sciences and Technology from Penn State University and Master’s in City Planning from the University of Pennsylvania.  I am currently an Innovation Fellow at the San Francisco Mayor's Office of Civic Innovation.</p>
+      <p>I believe that context shapes every experience we have and that awareness of context is important to making informed decisions.  In my blog, I explore emerging trends in technology that are changing the context of cities and planning.  The Internet and digital technologies are not supplanting real experiences but augmenting them.  I hope to understand the range of impacts this is having on the places we live and how we experience them.</p>
     </div>
   </div>
 </div>
