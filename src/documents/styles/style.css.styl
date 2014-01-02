@@ -1,31 +1,39 @@
 @import 'nib'
 
+//analagous color scheme
+color1 = #f97b13
+color2 = #fac117
+color3 = #f0fc1b
+color4 = #affd1f
+color5 = #1165D9
+
 a, a:link
   cursor pointer
 
 body
   padding-top 70px
+  font-weight 300
 
 table
   tfoot, tbody
     th
       border-top 1px solid #DDD
 
-.orange
-  background-color #FF811A
+.orange, .footer-wrapper
+  background-color color1
+
+.footer-wrapper
+  margin-top 40px
+  padding 40px 0
 
 .jumbotron
   margin-bottom 0
-
-.footer-wrapper
-  background #3B70FF
 
 .footer-wrapper a
   color: white
 
 .social-media
   padding-top 80px
-  text-align center
 
 .social-media a
   color #ffffff
@@ -33,7 +41,7 @@ table
 .social-media
   a:hover
   a:focus
-    color #3B70FF
+    color color5
 
 .image_gallery a
   display inline-block
@@ -41,3 +49,40 @@ table
 .image_gallery img
   padding-bottom 15px
   padding-top 15px
+
+#blog, #about
+  margin-top 50px
+
+#projects, #blog, #about
+  .container
+    margin-bottom 0
+    padding 0 15px
+
+.navbar-inverse .navbar-nav > li > a
+  color #ffffff
+  &:hover
+    color darken(#ffffff,60)
+
+.project-block
+  position relative
+  a
+    color #ffffff
+    &:hover
+      color darken(#ffffff,10)
+  img
+    opacity 1
+    margin-bottom 30px
+  .project-header
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+    padding 10px
+    background rgba(0,0,0,.5)
+    &:hover
+      background rgba(0,0,0,.4)
+
+.no-margin-bottom
+  margin-bottom 0
+

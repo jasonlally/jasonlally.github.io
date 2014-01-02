@@ -1,5 +1,8 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
+
+marked = require('marked')
+
 docpadConfig = {
 
 	# =================================
@@ -53,6 +56,9 @@ docpadConfig = {
 
 		# -----------------------------
 		# Helper Functions
+		isFront: ->
+      if @document.outFilename == 'index.html' then '' else '/'
+
 		parseMarkdown: (str) ->
       marked(str)
 
@@ -64,7 +70,7 @@ docpadConfig = {
     	moment(date).format('Do MMMM YYYY')
 
     contentTrim: (str) -> 
-    	if str.length > 300 then str.slice(0, 297) + '...' else str
+    	if str.length > 400 then str.slice(0, 397) + '...' else str
 
 		# Get the prepared site/document title
 		# Often we would like to specify particular formatting to our page's title
@@ -99,7 +105,7 @@ docpadConfig = {
             @getCollection("html").findAllLive({tags:$has:'post'}, [date:-1])
 
         projects: ->
-            @getCollection("html").findAllLive({layout:'project'})
+            @getCollection("html").findAllLive({layout:'project'}, [date:-1])
 
 
 	# =================================

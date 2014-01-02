@@ -43,7 +43,9 @@
     "docpad-plugin-ghpages": "~2.4.1",
     "docpad-plugin-associatedfiles": "~2.1.4",
     "docpad-plugin-thumbnails": "~2.1.1",
-    "docpad-plugin-moment": "~2.0.2"
+    "docpad-plugin-moment": "~2.0.2",
+    "marked": "~0.3.0",
+    "d": "~0.1.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.4",
