@@ -11,7 +11,7 @@ title: 'Home'
       <div class="col-sm-7 col-lg-6">
         <h1>Hello.<i class="fa fa-comment-o" style="position: relative; top: -.7em"></i></h1>
 
-        <p>I'm Jason&mdash;an urban planner, programmer, and dabbler in design. I build tools to connect
+        <p>I'm Jason&mdash;an urban planner, technologist, and dabbler in design. I build tools to connect
           and collaborate around the future of cities.</p>
       </div>
       <div class="col-sm-5 col-lg-6 social-media">
@@ -67,10 +67,15 @@ title: 'Home'
 <section id="about">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <h2>About</h2>
         <p>I am an urban planner and technologist. I have devoted my early career to understanding how to bring more people fully into the co-creation of our cities. I believe technology in the service of deeper human experiences&mdash;whether through new ways of telling stories, understanding data, or visualizing the future together&mdash;is one of the greatest uses of technology. I seek to strengthen technology's use in these ways and hold it accountable to doing the greatest good.</p>
-        <p>Before holding my current position as an Innovation Fellow at the San Francisco Mayor's Office of Civic Innovation, I served as the Director of the Decision Lab at PlaceMatters, where I advocated for more open, transparent and informed methods of urban and regional planning. I built tools like Brainstorm Anywhere and helped others bring new open source tools into existence like <a href="http://www.crowdgauge.org">CrowdGauge</a>. I received my Bachelor’s Degree in Information Sciences and Technology from Penn State University and Master’s in City Planning from the University of Pennsylvania.  I am currently an Innovation Fellow at the San Francisco Mayor's Office of Civic Innovation.</p>
+        <p>Before holding my current position as an Innovation Fellow at the San Francisco Mayor's Office of Civic Innovation, I served as the Director of the Decision Lab at <a href="http://www.placematters.org">PlaceMatters</a>, where I advocated for more open, transparent and informed methods of urban and regional planning. I built tools like <a href="http://www.brainstormanywhere.net">Brainstorm Anywhere</a> and helped others bring new open source tools into existence like <a href="http://www.crowdgauge.org">CrowdGauge</a>. I received my Bachelor’s Degree in Information Sciences and Technology from <a href="http://ist.psu.edu">Penn State University</a> and Master’s in City Planning from the <a href="http://design.upenn.edu/">University of Pennsylvania</a>.  I am currently an Innovation Fellow at the <a href="http://innovatesf.com">San Francisco Mayor's Office of Civic Innovation.</a></p>
+      </div>
+      <div class="col-sm-6">
+        <div class="headshot">
+          <img src="http://www.gravatar.com/avatar/b0d79f25e915d34f7f06907322ad8060.png?s=300" class="img-responsive" />
+        </div>
       </div>
     </div>
   </div>

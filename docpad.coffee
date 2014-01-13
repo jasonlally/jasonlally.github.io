@@ -51,6 +51,8 @@ docpadConfig = {
         "/vendor/lightbox/js/lightbox-2.6.min.js"
 				"/scripts/script.js"
 			]
+			services:
+				googleAnalytics: 'UA-418921-1'
 
 
 
