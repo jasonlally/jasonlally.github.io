@@ -39,7 +39,7 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/bootstrap.css"
-                "/vendor/lightbox/css/lightbox.css"
+        "/vendor/lightbox/css/lightbox.css"
 				"/styles/style.css"
 			]
 
@@ -104,7 +104,7 @@ docpadConfig = {
             @getCollection("html").findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
 		posts: ->
-            @getCollection("html").findAllLive({tags:$has:'post'}, [date:-1])
+            @getCollection("html").findAllLive({layout:'post'}, [date:-1])
 
         projects: ->
             @getCollection("html").findAllLive({layout:'project'}, [date:-1])

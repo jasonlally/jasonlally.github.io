@@ -40,6 +40,7 @@
 </head>
 <body data-offset="70" data-spy="scroll" data-target=".navbar-jason">
 <!-- Menu -->
+<% prefix = @isFront() %>
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -50,7 +51,6 @@
       </button>
       <a class="navbar-brand" href="<%- prefix %>#head">Jason Lally</a>
     </div>
-    <% prefix = @isFront() %>
     <div class="navbar-jason navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="<%- prefix %>#head" class="sr-only hidden">Home</a></li>
