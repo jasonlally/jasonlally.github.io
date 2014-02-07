@@ -45,7 +45,8 @@
     "docpad-plugin-thumbnails": "~2.1.1",
     "docpad-plugin-moment": "~2.0.2",
     "marked": "~0.3.0",
-    "d": "~0.1.0"
+    "d": "~0.1.0",
+    "docpad-plugin-services": "~2.5.0"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.6",
