@@ -53,6 +53,7 @@ docpadConfig = {
 			]
 			services:
 				googleAnalytics: 'UA-418921-1'
+				disqus: 'jasonlally'
 
 
 

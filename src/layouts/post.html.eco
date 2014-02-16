@@ -1,19 +1,24 @@
 ---
 layout: default
 ---
-<div class="container blog">
-  <div class="row">
-    <div class="col-md-7">
-      <article id="post" class="post">
-	      <h1><%= @document.title %></h1>
+<div class="blog-wrapper" style="background: url(../images/posts/<%= @document.masthead %>) no-repeat">
+  <div class="container blog">
+    <div class="row">
+      <div class="col-md-7 post-column">
+        <article id="post" class="post">
+          <h1><%= @document.title %></h1>
 
-	      <div class="post-content">
-          <%- @content %>
-        </div>
-      </article>
-    </div>
-    <div class="col-md-5">
+          <div class="post-content">
+            <%- @content %>
+          </div>
+          <div class="comments">
+            <%- @getDisqus() %>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-5">
 
+      </div>
     </div>
   </div>
 </div>

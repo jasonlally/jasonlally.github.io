@@ -3,15 +3,12 @@ title: Denver's first civic hackathon inspires competition, collaboration
 layout: post
 tags: ['denver','hackathon','civic innovation','post']
 date: 2012-07-30 (PST)
+masthead: denver_hackathon.jpg
 description: Over 30 people joined PlaceMatters and partners the weekend of July 28th, 2012 for Denver's first civic hackathon. 2 winning teams emerged, but everyone was able to benefit from a weekend of code, food and fun.
 ```
 [Also posted on [PlaceMatters' blog](http://blog.placematters.org/2012/07/31/civic-hackathon-inspires-competition-collaboration-around-planning-and-sustainability-apps-in-denver-region/ "Civic hackathon inspires competition posted at PlaceMatters")]
 
 This past weekend, July 27th to the 29th, [PlaceMatters](http://www.placematters.org "PlaceMatters") presented [Colorado Code for Communites: A Civic Hack-a-Thon](http://codeforcommunities.org) at the [Uncubed Coworking space in Denver](http://www.uncubedspace.com). With the support of the [Partnership for Sustainable Communities](http://www.sustainablecommunities.gov) and a number of [sponsors](http://www.codeforcommunities.org/sponsors) and [partners](http://codeforcommunities.org/partners), we had a successful event that brought open data, talented coders and designers, and plenty of food and refreshment to produce a strong set of ideas culminating in 2 winning applications to help advance sustainability and livability within the region.  If you don’t get through this whole blog post, please at least jump below for ways to get involved in this growing effort.
-
-[![Participants watch final presentations at Colorado Code for Communities](http://i1.wp.com/blog.placematters.org/wp-content/uploads/2012/07/IMG_1028.jpg?resize=540%2C405 "Participants watch final presentations at Colorado Code for Communities")](http://blog.placematters.org/wp-content/uploads/2012/07/IMG_1028.jpg)
-  Participants watch final presentations at Colorado Code for Communities
-
 
 First, I would like to acknowledge all of the hard work of the nearly 30 participants and a number of partners and advocates that made this a truly inspiring community driven event.  In the end [our panel of judges](http://codeforcommunities.org/about/judges/ "About the Judges") chose 2 applications that will receive additional support from PlaceMatters and it’s network of partners as well as mentorship from [Galvanize](http://www.galvanize.it)(a local firm supporting investment in entrepreneurial activity through 3 pillars: venture, community and curriculum).  These applications were:
 

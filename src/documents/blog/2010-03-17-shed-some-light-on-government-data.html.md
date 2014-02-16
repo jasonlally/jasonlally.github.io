@@ -2,6 +2,7 @@
 title: Shed some light on government data
 layout: post
 tags: ['sunlight foundation','open data','open government','gov 2.0','post']
+masthead: US_capitol_building.jpg
 date: 2010-03-17 (PST)
 ```
 
