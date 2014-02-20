@@ -4,7 +4,7 @@ layout: post
 tags: ['2014','new year framework','post']
 date: 2014-02-01 (PST)
 masthead: San_Francisco_Cityscape.jpg
-attribution: By Kevin Stanchfield (Flickr: San Francisco Cityscape) [<a href="http://creativecommons.org/licenses/by/2.0">CC-BY-2.0</a>], <a href="http://commons.wikimedia.org/wiki/File%3ASan_Francisco_Cityscape.jpg">via Wikimedia Commons</a>
+attribution: Masthead photo by Kevin Stanchfield (Flickr: San Francisco Cityscape) <a href="http://creativecommons.org/licenses/by/2.0">CC-BY-2.0</a>, <a href="http://commons.wikimedia.org/wiki/File%3ASan_Francisco_Cityscape.jpg">via Wikimedia Commons</a>
 description: 2013 was a year of a lot of personal change. A relocation, new job and a milestone birthday happened not just in 2013 but within a quick four month period. The rather dizzying changes of this past year have left my head spinning, but now, as the spinning wears off, I’m looking forward to what a focused  2014 can bring.
 ```
 2013 was a year of a lot of personal change. A relocation, new job and a milestone birthday happened not just in 2013 but within a quick 4 month period. The rather dizzying changes of this past year have left my head spinning, but now, as the spinning wears off, I’m looking forward to what a focused  2014 can bring.
