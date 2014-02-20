@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Jason Lally</title>
+	<link href="http://jasonlally.com/atom.xml" rel="self"/>
+	<link href="http://jasonlally.com"/>
+	<updated>2014-02-20T09:06:00.470Z</updated>
+	<id>http://jasonlally.com</id>
+	<author>
+		<name>Jason Lally</name>
+		<email>jason@jasonlally.com</email>
+	</author>
+
+	
+		<entry>
+			<title>San Francisco City genome project</title>
+			<link href="http://jasonlally.com//blog/2014-02-20-san-francisco-city-genome-project"/>
+			<updated>2014-02-20T08:00:00.000Z</updated>
+			<id>http://jasonlally.com//blog/2014-02-20-san-francisco-city-genome-project</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;!-- Meta --&gt;
+  &lt;meta charset=&quot;utf-8&quot;/&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
+
+  &lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+     More info: h5bp.com/i/378 --&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;/&gt;
+
+  &lt;!-- Our site title and description --&gt;
+  &lt;title&gt;San Francisco City genome project | Jason Lally&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;This past weekend, Katie Johnson and I endeavored down a path to map the organizational structure of the City and County of San Francisco. This may sound like a rather esoteric, dare I say even boring, task, but it’s actually quite a bit fun and I hope enlightening not just to Katie and I but to others.&quot;/&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;jason lally, urban planning, node.js, node, docpad, planning technology, civic technology, civic innovation, planning innovation&quot;/&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;Jason Lally&quot;/&gt;
+
+  &lt;!-- Output DocPad produced meta elements --&gt;
+  &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.3&quot; /&gt;
+
+  &lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;
+
+  &lt;!-- Icons --&gt;
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+  &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+  &lt;!--[if lt IE 9]&gt;
+  &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+
+  &lt;!-- Styles --&gt;
+  &lt;link href='http://fonts.googleapis.com/css?family=Lustria|Lato:300,400' rel='stylesheet' type='text/css'&gt;
+  &lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/lightbox/css/lightbox.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body data-offset=&quot;70&quot; data-spy=&quot;scroll&quot; data-target=&quot;.navbar-jason&quot;&gt;
+&lt;!-- Menu --&gt;
+
+&lt;div class=&quot;navbar navbar-inverse navbar-fixed-top&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;navbar-header&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class=&quot;navbar-brand&quot; href=&quot;/#head&quot;&gt;Jason Lally&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;navbar-jason navbar-collapse collapse&quot;&gt;
+      &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;/#head&quot; class=&quot;sr-only hidden&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#projects&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!--/.navbar-collapse --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Content --&gt;
+  &lt;div class=&quot;blog-wrapper&quot; style=&quot;background: url(/images/posts/DNA.jpg) no-repeat&quot;&gt;
+  &lt;div class=&quot;container blog&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-7 post-column&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+          &lt;h1&gt;San Francisco City genome project&lt;/h1&gt;
+            &lt;p class=&quot;post-date&quot;&gt;Thu Feb 20 2014&lt;/p&gt;
+
+          &lt;div class=&quot;post-content&quot;&gt;
+            &lt;p&gt;This past weekend, Katie Johnson (&lt;a href=&quot;https://twitter.com/aStateofKate&quot;&gt;@aStateOfKate&lt;/a&gt;) and I endeavored down a path to map the organizational structure of the City and County of San Francisco. This may sound like a rather esoteric, dare I say even boring, task, but it’s actually quite a bit fun and I hope enlightening not just to Katie and I but to others.&lt;/p&gt;
+&lt;p&gt;San Francisco is approximately &lt;a href=&quot;https://data.sfgov.org/browse?q=employees&amp;amp;sortBy=relevance&amp;amp;utf8=%E2%9C%93&quot;&gt;28,000 employees&lt;/a&gt;, with 50+ departments, agencies, commissions and other major units of government and about an &lt;a href=&quot;http://openbook.sfgov.org/openbooks/cgi-bin/cognosisapi.dll?b_action=cognosViewer&amp;amp;ui.action=run&amp;amp;ui.object=/content/folder%5B@name=%27Reports%27%5D/report%5B@name=%27Budget%27%5D&amp;amp;ui.name=Budget&amp;amp;run.outputFormat=HTML&amp;amp;run.prompt=false&quot;&gt;$8 billion&lt;/a&gt; &lt;a href=&quot;https://data.sfgov.org/Administration-and-Finance/Budget/xdgd-c79v&quot;&gt;budget&lt;/a&gt;. Needless to say, it is a large and complex organism. Mapping the organizational structure of the City, for me, is like mapping the genome (albeit way less expensive and much easier than say mapping an actual genome). This underlying structure implies the way in which the City operates. Having this context is key for anyone who wants to improve the civic aspect of living here.&lt;/p&gt;
+&lt;p&gt;Having been a fellow at the Mayor’s Office for Civic Innovation now for six months, I’m no expert on all the myriad functions city government performs for its citizens, but I have been here just long enough to become very curious. This project is an attempt to turn tacit knowledge on the structure and operation of the City into structured data. Data that is hopefully useful to others for a myriad of reasons.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/Organization_Chart.jpg&quot; alt=&quot;The goal is to turn charts like these into structured data you can open up in a spreadsheet and visualize in a number of ways&quot;&gt;
+&lt;em&gt;This project attempts to turn charts like the one above into structured data you can open up in a spreadsheet and visualize.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The goal of this genome project is to map out both the formal and informal structures of the City. The first step focuses on mapping those established structures of government embodied in the org charts of departments. Once these relationships are described, then the informal, functional relationships can be layered on top. For example, there are many divisions of many departments that touch aspects of neighborhood development that aren’t formally bound together but coordinate and collaborate because of the nature of the work. The &lt;a href=&quot;http://bettermarketstreetsf.org/&quot;&gt;Better Market Street Project&lt;/a&gt; is one of many examples of this kind of cross-department collaboration.&lt;/p&gt;
+&lt;p&gt;If this serves nothing else, this is a research project that will produce a well documented and centralized resource to benefit others on a similar path. At its best, the data generated in this research benefits other possible uses. For example, it could possibly:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Give researchers better understanding of how information flows through the City&lt;/li&gt;
+&lt;li&gt;Give designers and user researchers better situational context as they build new applications used by public sector employees&lt;/li&gt;
+&lt;li&gt;Help citizens understand the organization they have working for them.&lt;/li&gt;
+&lt;li&gt;Give civil servants tools to document knowledge as it relates to the overall structure of government&lt;/li&gt;
+&lt;li&gt;And so on...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The research is currently being documented in a &lt;a href=&quot;https://docs.google.com/spreadsheet/ccc?key=0AnXTBxBQSd0hdGdpMi14QmhSNEh2S3VYZGxWV0lyX3c&amp;amp;usp=sharing#gid=0&quot;&gt;Google Spreadsheet&lt;/a&gt;. There are two tabs, one with a list of all the departments and a link to the relevant org chart and a second with the starting point for describing these org charts in a structured format. Ultimately, we’ll want to visualize the formal and informal relationships. So you’ll see a column for node and a column for parent. These indicate the basic hierarchical “edges” if we’re talking in terms of graphs. Put more simply, the node is every department, division, or unit of government, and its parent is the immediate link up the chain of command in the org chart.&lt;/p&gt;
+&lt;p&gt;If you’re interested in learning more about the project or collaborating with us, drop us a line (&lt;a href=&quot;https://twitter.com/aStateofKate&quot;&gt;Katie&lt;/a&gt; and &lt;a href=&quot;http://www.twitter.com/synchronouscity&quot;&gt;I&lt;/a&gt; are both easy to find on Twitter). The more the merrier!&lt;/p&gt;
+
+            &lt;em&gt;Masthead photo by &lt;a href=&quot;/redirect?u=http%3A%2F%2Fwww.flickr.com%2Fphotos%2F7940758%40N07&quot; about=&quot;http://i.images.cdn.fotopedia.com/flickr-2559447601-hd/Tokyo_and_Vicinity/Places_of_Interest/Museums__Galleries/Miraikan/DNA.jpg&quot; class=&quot;external_author&quot; property=&quot;cc:attributionName&quot; rel=&quot;cc:attributionURL&quot; target=&quot;_blank&quot;&gt;MIKI Yoshihito (´･ω･)&lt;/a&gt; on &lt;a href=&quot;/redirect?u=http%3A%2F%2Fwww.flickr.com%2Fphotos%2F7940758%40N07%2F2559447601&quot; about=&quot;http://i.images.cdn.fotopedia.com/flickr-2559447601-hd/Tokyo_and_Vicinity/Places_of_Interest/Museums__Galleries/Miraikan/DNA.jpg&quot; class=&quot;external_photo&quot; property=&quot;cc:attributionName&quot; rel=&quot;cc:attributionURL&quot; target=&quot;_blank&quot;&gt;Flickr&lt;/a&gt;&lt;/em&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;comments&quot;&gt;
+            &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+	(function(){
+		window.disqus_shortname = 'jasonlally';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://jasonlally.com/blog/2014-02-20-san-francisco-city-genome-project';
+		window.disqus_identifier = 'blog-2014-02-20-san-francisco-city-genome-project';
+		window.disqus_title = 'San Francisco City genome project';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-5&quot;&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Footer --&gt;
+&lt;div class=&quot;footer-wrapper&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;footer&gt;
+      &lt;p class=&quot;no-margin-bottom&quot; style=&quot;font-size: 80%;&quot;&gt;Unless stated otherwise; all works are &amp;copy; Jason Lally 2014 and licensed permissively under the &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot;&gt;MIT License&lt;/a&gt; for code and the &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;Creative Commons Attribution 3.0 Unported License&lt;/a&gt; for everything else (including content, media and design), enjoy!&lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Scripts --&gt;
+&lt;script &gt;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-418921-1');
+ga('send', 'pageview');&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/lightbox/js/lightbox-2.6.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>A new place, a new year</title>
+			<link href="http://jasonlally.com//blog/2014-02-01-a-new-place-a-new-year"/>
+			<updated>2014-02-01T08:00:00.000Z</updated>
+			<id>http://jasonlally.com//blog/2014-02-01-a-new-place-a-new-year</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;!-- Meta --&gt;
+  &lt;meta charset=&quot;utf-8&quot;/&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
+
+  &lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+     More info: h5bp.com/i/378 --&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;/&gt;
+
+  &lt;!-- Our site title and description --&gt;
+  &lt;title&gt;A new place, a new year | Jason Lally&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;2013 was a year of a lot of personal change. A relocation, new job and a milestone birthday happened not just in 2013 but within a quick four month period. The rather dizzying changes of this past year have left my head spinning, but now, as the spinning wears off, I’m looking forward to what a focused  2014 can bring.&quot;/&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;jason lally, urban planning, node.js, node, docpad, planning technology, civic technology, civic innovation, planning innovation&quot;/&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;Jason Lally&quot;/&gt;
+
+  &lt;!-- Output DocPad produced meta elements --&gt;
+  &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.3&quot; /&gt;
+
+  &lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;
+
+  &lt;!-- Icons --&gt;
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+  &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+  &lt;!--[if lt IE 9]&gt;
+  &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+
+  &lt;!-- Styles --&gt;
+  &lt;link href='http://fonts.googleapis.com/css?family=Lustria|Lato:300,400' rel='stylesheet' type='text/css'&gt;
+  &lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/lightbox/css/lightbox.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body data-offset=&quot;70&quot; data-spy=&quot;scroll&quot; data-target=&quot;.navbar-jason&quot;&gt;
+&lt;!-- Menu --&gt;
+
+&lt;div class=&quot;navbar navbar-inverse navbar-fixed-top&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;navbar-header&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class=&quot;navbar-brand&quot; href=&quot;/#head&quot;&gt;Jason Lally&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;navbar-jason navbar-collapse collapse&quot;&gt;
+      &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;/#head&quot; class=&quot;sr-only hidden&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#projects&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!--/.navbar-collapse --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Content --&gt;
+  &lt;div class=&quot;blog-wrapper&quot; style=&quot;background: url(/images/posts/San_Francisco_Cityscape.jpg) no-repeat&quot;&gt;
+  &lt;div class=&quot;container blog&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-7 post-column&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+          &lt;h1&gt;A new place, a new year&lt;/h1&gt;
+            &lt;p class=&quot;post-date&quot;&gt;Sat Feb 01 2014&lt;/p&gt;
+
+          &lt;div class=&quot;post-content&quot;&gt;
+            &lt;p&gt;2013 was a year of a lot of personal change. A relocation, new job and a milestone birthday happened not just in 2013 but within a quick 4 month period. The rather dizzying changes of this past year have left my head spinning, but now, as the spinning wears off, I’m looking forward to what a focused  2014 can bring.&lt;/p&gt;
+&lt;p&gt;In May of last year, I finally made the move to San Francisco. This was preceded by five years of visits to see my dear friend Lauren. I always enjoyed my time in San Francisco and let’s just say after five years of encouraging a move, I finally found the courage and will to get outside my comfort zone. I also found love. My partner, of now over one year, I met on one of many trips out to San Francisco. I took a risk on six months of distance--something very uncharacteristic of me--and have been rewarded with a loving relationship. And only after three months of living in San Francisco, I was honored to be selected as a Mayor’s Innovation Fellow with the &lt;a href=&quot;http://innovatesf.com&quot;&gt;San Francisco Mayor’s Office of Civic Innovation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now here I am, a newly minted San Franciscan, in a relationship, at the age of 30, in a dream fellowship. I also landed in the midst of some tense times in San Francisco. It probably isn’t a surprise to you that San Francisco is rapidly changing, bringing to the surface many underlying tensions around housing, affordability, social services and the economy broadly. These are not necessarily new challenges or particularly unique to San Francisco, but I’d say, as a poster-child for tech sector innovation and growth, the challenges are felt acutely and amplified quickly. I’m not going to unpack these tensions here or offer yet another opinion on how we got here and how to fix it. There are &lt;a href=&quot;http://blogs.wsj.com/digits/2014/01/30/salesforce-ceo-benioff-on-how-to-fix-san-francisco/&quot;&gt;plenty&lt;/a&gt; &lt;a href=&quot;https://medium.com/where-have-you-been-city-neighourhood-and-travel/ccb31944dce1&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;http://www.sfgate.com/opinion/openforum/article/How-San-Francisco-creates-its-own-housing-crisis-5139869.php&quot;&gt;those&lt;/a&gt; &lt;a href=&quot;http://www.slate.com/blogs/future_tense/2014/01/16/sf_tech_backlash_google_buses_get_private_security_guards_says_reuters.html&quot;&gt;circling&lt;/a&gt; &lt;a href=&quot;http://www.theatlanticcities.com/commute/2014/01/visual-study-just-how-bad-tech-shuttles-are-san-francisco/8221/&quot;&gt;around&lt;/a&gt;. I have only a limited view of the complex interactions happening in my adopted home, so my most responsible action at this point is to listen. 2014 will be about furthering my commitment to respect, which will require making myself uncomfortable and challenging preconceived notions I may not even recognize.&lt;/p&gt;
+&lt;p&gt;If 2013 was about movement and change, 2014, I hope, is about rooting and understanding. It is very easy for anyone moving at the pace of modern life to forget to look around and take notice. This year, for me, is about intentionally exploring and understanding the world around me. I’m framing my intentional exploration around three themes: learning, generating and engaging. The following is not quite a New Year’s resolution but a New Year’s framework to focus on the things that will bring me closer to the person I want to be.&lt;/p&gt;
+&lt;h2 id=&quot;learning&quot;&gt;Learning&lt;/h2&gt;
+&lt;p&gt;I want to push myself to learn things I’ve put off and to deepen knowledge of things for which I am just beginning. Some new interests will emerge over this year, but I have a few goals in mind at the outset. For example, it’s about time I learn Spanish. There are many good reasons personally to learn new languages, and In a country with a growing Latino population, learning Spanish just makes sense, particularly to deepen cultural empathy and increase pathways for communication. I also look forward to deepening skills around design and development. I’ve been working increasingly with Node based applications and getting more into rapid prototyping and design. I feel this year is as good as any to start pulling together pieces and knitting them into a stronger core of skills to bring technology from user stories to wireframes to working prototypes and products.&lt;/p&gt;
+&lt;h2 id=&quot;generating&quot;&gt;Generating&lt;/h2&gt;
+&lt;p&gt;Over this year, I really want to deepen my generative capacity. From writing, to sketching, to building tools, the idea here is to pursue and deliver on a range of creative projects. Also, as much as possible, I want to put those projects out there. Whether it’s pushing code, writing a blog post or sharing other creative pursuits, I become better by creating out in the open so to speak. This exposes me up to feedback (hopefully constructive) and forces me to grow in confidence in my abilities. In tandem with learning, generating becomes a powerful force for personal (and possibly community) growth.&lt;/p&gt;
+&lt;h2 id=&quot;engaging&quot;&gt;Engaging&lt;/h2&gt;
+&lt;p&gt;Finally, in pursuit of strengthening my ties to the community around me, it is important for me to engage. This means purposefully finding ways to tie myself to those that I may not know now, but are my neighbors. Civic engagement is often strongest around elections, but there are ways to be consistently engaged in community. From community meetings to volunteering to attending events at the Public Library. There are many ways to be “in community” with people that go beyond our 9 to 5 jobs. The purpose this year is to do this intentionally instead of accidentally. I look forward to deepening community and truly engaging in the world around me.&lt;/p&gt;
+&lt;h2 id=&quot;a-framework-not-a-resolution&quot;&gt;A Framework, Not a Resolution&lt;/h2&gt;
+&lt;p&gt;So my New Year’s framework may not be as simple or clear as a couple of resolutions, but it’s something that resonates with the way I think. It gives me just enough clarity on direction without boxing me into a couple of promises I’ll make my present self without consideration for my future self. So how do I make this into something actionable? By building a simple feedback loop. Each week, I can ask myself the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;What have I done to learn, to generate, to engage?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In each category, I should have at least one thing I’ve done that week. If not, well, it’s not a complete failure, but now I know I should apply a little more energy in a certain direction. If I go weeks in a category without doing anything, I’ve got even more serious energy to apply and maybe a deeper checkin with myself to see what’s keeping me from accomplishing learning, generating or engaging activities. This requires honesty with myself, but also gentleness. We often beat ourselves up for not accomplishing a resolution or goal, focusing so narrowly on the outcome we forget to look at the whole. I’m pretty guilty of that myself.&lt;/p&gt;
+&lt;p&gt;This framework, if it works the way I envision, will help me advance in the direction of the person I am always becoming and hope to be. This year, then, will end with proud accomplishments, not because I’ve torn down the other, but because I’ve built myself up.&lt;/p&gt;
+
+            &lt;em&gt;Masthead photo by Kevin Stanchfield (Flickr: San Francisco Cityscape) &lt;a href=&quot;http://creativecommons.org/licenses/by/2.0&quot;&gt;CC-BY-2.0&lt;/a&gt;, &lt;a href=&quot;http://commons.wikimedia.org/wiki/File%3ASan_Francisco_Cityscape.jpg&quot;&gt;via Wikimedia Commons&lt;/a&gt;&lt;/em&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;comments&quot;&gt;
+            &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+	(function(){
+		window.disqus_shortname = 'jasonlally';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://jasonlally.com/blog/2014-02-01-a-new-place-a-new-year';
+		window.disqus_identifier = 'blog-2014-02-01-a-new-place-a-new-year';
+		window.disqus_title = 'A new place, a new year';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-5&quot;&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Footer --&gt;
+&lt;div class=&quot;footer-wrapper&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;footer&gt;
+      &lt;p class=&quot;no-margin-bottom&quot; style=&quot;font-size: 80%;&quot;&gt;Unless stated otherwise; all works are &amp;copy; Jason Lally 2014 and licensed permissively under the &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot;&gt;MIT License&lt;/a&gt; for code and the &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;Creative Commons Attribution 3.0 Unported License&lt;/a&gt; for everything else (including content, media and design), enjoy!&lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Scripts --&gt;
+&lt;script &gt;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-418921-1');
+ga('send', 'pageview');&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/lightbox/js/lightbox-2.6.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Denver's first civic hackathon inspires competition, collaboration</title>
+			<link href="http://jasonlally.com//blog/2012-07-30-denvers-first-civic-hackathon"/>
+			<updated>2012-07-30T07:00:00.000Z</updated>
+			<id>http://jasonlally.com//blog/2012-07-30-denvers-first-civic-hackathon</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;!-- Meta --&gt;
+  &lt;meta charset=&quot;utf-8&quot;/&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
+
+  &lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+     More info: h5bp.com/i/378 --&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;/&gt;
+
+  &lt;!-- Our site title and description --&gt;
+  &lt;title&gt;Denver's first civic hackathon inspires competition, collaboration | Jason Lally&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;Over 30 people joined PlaceMatters and partners the weekend of July 28th, 2012 for Denver's first civic hackathon. 2 winning teams emerged, but everyone was able to benefit from a weekend of code, food and fun.&quot;/&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;jason lally, urban planning, node.js, node, docpad, planning technology, civic technology, civic innovation, planning innovation&quot;/&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;Jason Lally&quot;/&gt;
+
+  &lt;!-- Output DocPad produced meta elements --&gt;
+  &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.3&quot; /&gt;
+
+  &lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;
+
+  &lt;!-- Icons --&gt;
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+  &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+  &lt;!--[if lt IE 9]&gt;
+  &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+
+  &lt;!-- Styles --&gt;
+  &lt;link href='http://fonts.googleapis.com/css?family=Lustria|Lato:300,400' rel='stylesheet' type='text/css'&gt;
+  &lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/lightbox/css/lightbox.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body data-offset=&quot;70&quot; data-spy=&quot;scroll&quot; data-target=&quot;.navbar-jason&quot;&gt;
+&lt;!-- Menu --&gt;
+
+&lt;div class=&quot;navbar navbar-inverse navbar-fixed-top&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;navbar-header&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class=&quot;navbar-brand&quot; href=&quot;/#head&quot;&gt;Jason Lally&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;navbar-jason navbar-collapse collapse&quot;&gt;
+      &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;/#head&quot; class=&quot;sr-only hidden&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#projects&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!--/.navbar-collapse --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Content --&gt;
+  &lt;div class=&quot;blog-wrapper&quot; style=&quot;background: url(/images/posts/denver_hackathon.jpg) no-repeat&quot;&gt;
+  &lt;div class=&quot;container blog&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-7 post-column&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+          &lt;h1&gt;Denver's first civic hackathon inspires competition, collaboration&lt;/h1&gt;
+            &lt;p class=&quot;post-date&quot;&gt;Mon Jul 30 2012&lt;/p&gt;
+
+          &lt;div class=&quot;post-content&quot;&gt;
+            &lt;p&gt;[Also posted on &lt;a href=&quot;http://blog.placematters.org/2012/07/31/civic-hackathon-inspires-competition-collaboration-around-planning-and-sustainability-apps-in-denver-region/&quot; title=&quot;Civic hackathon inspires competition posted at PlaceMatters&quot;&gt;PlaceMatters&amp;#39; blog&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;This past weekend, July 27th to the 29th, &lt;a href=&quot;http://www.placematters.org&quot; title=&quot;PlaceMatters&quot;&gt;PlaceMatters&lt;/a&gt; presented &lt;a href=&quot;http://codeforcommunities.org&quot;&gt;Colorado Code for Communites: A Civic Hack-a-Thon&lt;/a&gt; at the &lt;a href=&quot;http://www.uncubedspace.com&quot;&gt;Uncubed Coworking space in Denver&lt;/a&gt;. With the support of the &lt;a href=&quot;http://www.sustainablecommunities.gov&quot;&gt;Partnership for Sustainable Communities&lt;/a&gt; and a number of &lt;a href=&quot;http://www.codeforcommunities.org/sponsors&quot;&gt;sponsors&lt;/a&gt; and &lt;a href=&quot;http://codeforcommunities.org/partners&quot;&gt;partners&lt;/a&gt;, we had a successful event that brought open data, talented coders and designers, and plenty of food and refreshment to produce a strong set of ideas culminating in 2 winning applications to help advance sustainability and livability within the region.  If you don’t get through this whole blog post, please at least jump below for ways to get involved in this growing effort.&lt;/p&gt;
+&lt;p&gt;First, I would like to acknowledge all of the hard work of the nearly 30 participants and a number of partners and advocates that made this a truly inspiring community driven event.  In the end &lt;a href=&quot;http://codeforcommunities.org/about/judges/&quot; title=&quot;About the Judges&quot;&gt;our panel of judges&lt;/a&gt; chose 2 applications that will receive additional support from PlaceMatters and it’s network of partners as well as mentorship from &lt;a href=&quot;http://www.galvanize.it&quot;&gt;Galvanize&lt;/a&gt;(a local firm supporting investment in entrepreneurial activity through 3 pillars: venture, community and curriculum).  These applications were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://codeforcommunities.wikispaces.com/EndPoint&quot;&gt;EndPoint&lt;/a&gt; - an app built to provide information about the characteristics of your neighborhood and help to support more sustainable choices.  In a weekend, the team produced an application using open data from the Denver region including crime data, transit stops, libraries, and demographics among other data.  They also managed to pull together a well documented API to serve that data back out to developers in the city.  &lt;strong&gt;The team included: Levi Beers, Clay McIllrath, Jon Hemstreet, Jiran Dowlati&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://codeforcommunities.wikispaces.com/RadRoutes&quot;&gt;RadRoutes&lt;/a&gt; - pitched by Justin Lewis and Jill Locantore of the &lt;a href=&quot;http://www.drcog.org&quot; title=&quot;Denver Regional Council of Governments&quot;&gt;Denver Regional Council of Governments&lt;/a&gt; (DRCOG), this application crowdsources ratings of the various bike facilities and provides additional mashups of crash data and bike theft data to help improve biking in the region.  It also provides great feedback to DRCOG to make planning decisions on future investments around safety and building a more complete bike network. &lt;strong&gt;The team included: Justin Lewis, Michael Lockwitz, Jeremy Thiesen, Mark Scheel, Mehdi Heris&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.placematters.org/wp-content/uploads/2012/07/IMG_1008.jpg&quot;&gt;&lt;img src=&quot;http://i0.wp.com/blog.placematters.org/wp-content/uploads/2012/07/IMG_1008.jpg?resize=540%2C405&quot; alt=&quot;The EndPoint team hacks away at their winning application&quot; title=&quot;The EndPoint team hacks away at their winning application&quot;&gt;&lt;/a&gt;
+  The EndPoint team hacks away at their winning application&lt;/p&gt;
+&lt;p&gt;It was a hard decision and we had a number of other apps including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://codeforcommunities.wikispaces.com/CityCycle&quot;&gt;CityCycle&lt;/a&gt; - an application offering a clearinghouse of information to cyclists in the region on routes, bike racks, and BCycle (bike sharing) stations. &lt;strong&gt;The team included: Oza Klanjsek, Ian Harwick, Shilo Rohlman&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://codeforcommunities.wikispaces.com/MyFairElection&quot;&gt;MyFairElection&lt;/a&gt; - an application offering increased transparency on election day for polling locations.  You can find polling location data, the laws affecting voting in your state, check in and out of polling locations to report wait times, rate polling locations, and share that you voted with friends on your social networks. &lt;strong&gt;The team included: Karen Suhaka, Cole Chambers, David Miller, Philip Hickey, David Chapman, Curtis Floth&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://codeforcommunities.wikispaces.com/ParkingThief&quot;&gt;Parking Thief&lt;/a&gt; - parking data is notoriously hard to collect and keep up to date.  This app gamifies the data collection process and helps support better decisions around parking and aids in parking management.  For example, get more points if you park at a Park and Ride and take the light rail or bus in to downtown. &lt;strong&gt;The team included: Vui Nguyen, Andrew Corliss, George Peterson&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://codeforcommunities.wikispaces.com/Transit+Trends&quot;&gt;Transit Trends&lt;/a&gt; - in the absence of real time information, this app allows transit users to report the arrival time of their bus or train and rate the experience.  The app could be used to alert users downstream of a late bus.  It can also be used to provide real time feedback to the transit agency on the quality of service and support future service decisions. &lt;strong&gt;The team included: Laura Leslie, David Viramontes, David Stile, Jim Lindauer&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We have encouraged everyone to keep on hacking and stay engaged as this is just the beginning of building a robust civic hacking community devoted to building more sustainable and vibrant communities throughout the region.  You can check out more presentations and resources from the weekend &lt;a href=&quot;http://codeforcommunities.wikispaces.com&quot;&gt;on the wiki&lt;/a&gt; and &lt;a href=&quot;http://storify.com/tekhneco/code-for-communities&quot;&gt;read a round up of the weekend’s event&lt;/a&gt; from &lt;a href=&quot;http://www.tekhne.co&quot;&gt;Tekhne&lt;/a&gt; (our media sponsor).&lt;img src=&quot;http://i2.wp.com/blog.placematters.org/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&quot; alt=&quot;&quot; title=&quot;More...&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;additional-successes&quot;&gt;Additional Successes&lt;/h3&gt;
+&lt;p&gt;While we are proud of the teams and excited about the momentum, the successes extend beyond the apps from the weekend:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Through the leadership of our partner &lt;a href=&quot;http://www.opencolorado.org&quot;&gt;Open Colorado&lt;/a&gt; (including Allan Glen, Brian Gryth and Scott Primeau), &lt;a href=&quot;http://data.denvergov.org&quot;&gt;Denver released 88 GIS datasets into a truly open data catalog&lt;/a&gt; with more to come.  These 88 individual datasets can be accessed by anyone without complex forms and contract numbers as was the case before.  In this way, the friction to get data in Denver is greatly reduced.  This was one of the key reasons we could do what we did this past weekend and we owe many thanks to Open Colorado and the Mayor’s Office for stepping up to the challenge of liberating data.&lt;/li&gt;
+&lt;li&gt;Over the weekend, Allan Glen hacked a beautiful soup python script to sync up &lt;a href=&quot;http://gis.drcog.org/datacatalog/&quot; title=&quot;DRCOG data catalog&quot;&gt;DRCOG’s already open catalog&lt;/a&gt; with the &lt;a href=&quot;http://data.opencolorado.org&quot;&gt;Open Colorado catalog&lt;/a&gt;.  There are now 412 datasets total from Denver, Boulder County, City of Boulder, City of Arvada, the Town of Castle Rock and DRCOG.&lt;/li&gt;
+&lt;li&gt;Dan Melton, Deputy CTO of &lt;a href=&quot;http://www.granicus.com&quot; title=&quot;Granicus&quot;&gt;Granicus&lt;/a&gt; (one of our sponsors) &lt;a href=&quot;http://screencast.com/t/kPQPyrgC0H&quot; title=&quot;Dan Melton&quot;&gt;built a beautiful mobile app that let’s users search the video archive&lt;/a&gt; of public meetings on the Granicus platform and set alerts for search terms like “parks” or “planning”.&lt;/li&gt;
+&lt;li&gt;We are working closely with the &lt;a href=&quot;http://brigade.codeforamerica.org&quot; title=&quot;Code for America Brigade&quot;&gt;Code for America brigade leadership&lt;/a&gt; to continue to support the growing community here and are very excited about collaborating with cities around the country on open data, civic apps, and sustainability.&lt;/li&gt;
+&lt;li&gt;We announced our new series of &lt;a href=&quot;http://www.meetup.com/cfabrigade/Denver-CO/756082/&quot; title=&quot;Code for Communities Civic Hacker Meetup&quot;&gt;civic hacker meetups&lt;/a&gt; that will begin August 20th through the &lt;a href=&quot;http://brigade.codeforamerica.org&quot;&gt;Code for America Brigade&lt;/a&gt; umbrella.  All are welcome!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://codeforamerica.org/2011/02/25/chris-vein-goes-to-the-white-house/&quot; title=&quot;Chris Vein goes to the White House&quot;&gt;Chris Vein, US Deputy Chief Technology Officer&lt;/a&gt;, blogged about our event and called in to say some closing words.  &lt;a href=&quot;http://www.whitehouse.gov/administration/eop/ostp&quot; title=&quot;Office of Science and Technology Policy&quot;&gt;The Office of Science and Technology Policy&lt;/a&gt; is interested in expanding successful hackathons around livability and sustainability in other regions.&lt;/li&gt;
+&lt;li&gt;We have strong relationships with the local startup and entrepreneurial community including &lt;a href=&quot;http://www.galvanize.it&quot;&gt;Galvanize&lt;/a&gt;, &lt;a href=&quot;http://co.s.co/&quot; title=&quot;Startup Colorado&quot;&gt;Startup Colorado&lt;/a&gt;, &lt;a href=&quot;http://denver.startupweekend.org/&quot; title=&quot;Denver Startup Weekend&quot;&gt;Denver Startup Weekend&lt;/a&gt;, &lt;a href=&quot;http://boulder.startupweekend.com&quot; title=&quot;Boulder Startup Weekend&quot;&gt;Boulder Startup Weekend&lt;/a&gt;, and &lt;a href=&quot;http://www.bdnewtech.com/&quot; title=&quot;Boulder-Denver New Tech Meetup Group&quot;&gt;Boulder-Denver New Tech&lt;/a&gt;.  These partnerships have been instrumental and we thank everyone for their support and help throughout.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;These successes do not belong to PlaceMatters alone, they belong to the broader community and we look forward to continued success with all of the partners.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;some-fun-hack-facts-from-the-weekend&quot;&gt;Some fun hack facts from the weekend&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.placematters.org/wp-content/uploads/2012/07/Hack-Facts-Image.001.png&quot;&gt;&lt;img src=&quot;http://i1.wp.com/blog.placematters.org/wp-content/uploads/2012/07/Hack-Facts-Image.001.png?resize=614%2C461&quot; alt=&quot;Infographic of hack facts from this weekend&quot; title=&quot;Hack Facts&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;things-we-did-well&quot;&gt;Things we did well&lt;/h3&gt;
+&lt;p&gt;We really think this weekend went well, and in the interest of helping others repeat this success, here are the things we think we did well:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Cast a wide net:&lt;/strong&gt; we engaged with groups all over the region early and often including startups, entrepreneurs, local business, non-profits, foundations, local and regional government, and Federal government.  Go out and meet as many people as you can and believe in your vision&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collect as much data as humanly possible: &lt;/strong&gt;getting Denver’s data into a catalog was a big deal and helped us have a successful event.  Getting data liberated will really make your event that much more successful.  &lt;strong&gt;&lt;em&gt;[Note 8/1: I attributed the Data Commons incorrectly in the original post, the sentence should read:]&lt;/em&gt; &lt;/strong&gt;The fall will bring even more data as the &lt;a href=&quot;http://www.denverfoundation.org&quot;&gt;Denver Foundation&lt;/a&gt; will be rolling out a relational Data Commons with its partner the &lt;a href=&quot;http://www.pitonfoundation.org&quot;&gt;Piton Foundation&lt;/a&gt;.&lt;strong&gt; &lt;/strong&gt;&lt;del&gt;The fall will bring even more data as the Piton Foundation will be rolling out a Data Commons for the state.&lt;/del&gt;  Think of open data as a platform for success.  The apps will fall in place.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Celebrate local: &lt;/strong&gt;as much as we could we emphasized local and regional businesses in our sponsorships, refreshments and food.  We had food trucks pull up for lunch, dinners were provided by local establishments.  We even had a local energy drink (&lt;a href=&quot;http://www.getbinged.com&quot; title=&quot;Bing Energy Drink&quot;&gt;Bing based in Lakewood, CO&lt;/a&gt;) and local soda (&lt;a href=&quot;http://www.oogave.com/&quot; title=&quot;Oogave soda&quot;&gt;Oogave based in Denver&lt;/a&gt;) and gallons of coffee from a local coffee shop (&lt;a href=&quot;http://www.pabloscoffee.com/&quot; title=&quot;Pablo&quot;&gt;Pablo’s&lt;/a&gt;) that fueled the hackers through the weekend.  This also helped make the experience memorable for participants.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Think global: &lt;/strong&gt;&lt;a href=&quot;http://www.fedinsider.com/2012/02/09/120201-1/&quot; title=&quot;Chris Vein on Fed Insider&quot;&gt;Chris Vein&lt;/a&gt; from the &lt;a href=&quot;http://www.whitehouse.gov/administration/eop/ostp&quot; title=&quot;Office of Science and Technology Policy&quot;&gt;Office of Science and Technology Policy&lt;/a&gt; helped us link the efforts of local developers to something much bigger.  Doesn’t mean you have to have someone call in from the White House to be successful, but link the effort in whatever way you can to something bigger.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don’t judge: &lt;/strong&gt;if you are the primary organizer, it is a good idea not to be on the judge panel and to distance yourself as much from their decision as you can.  This allows you to support all of the teams as much as you can and to focus on the overall success of everyone.  I can say that I truly wanted everyone to be successful and not making the final decision helped me focus on that (also, keep in mind you don’t have to use the panel judge format, but this was helpful in our particular case in this event to motivate a nascent community).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don’t stop: &lt;/strong&gt;a hackathon can be exhausting to put together, but don’t think of the hackathon as the end.  Work with partners to link the event to a broader network.  We did this through announcing our meetups and 4 upcoming startup events in Denver in the fall.  We’re working with &lt;a href=&quot;http://www.opencolorado.org&quot;&gt;Open Colorado&lt;/a&gt; to figure out a date for a future &lt;a href=&quot;http://citycamp.govfresh.com/&quot; title=&quot;CityCamp&quot;&gt;CityCamp&lt;/a&gt; as well.  You are most likely not alone and if you did number 1 above, the momentum will carry you forward.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;things-we-could-improve&quot;&gt;Things we could improve&lt;/h3&gt;
+&lt;p&gt;I won’t pretend we did everything right.  Here are some of our mistakes that I hope you can learn from:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Delegate the capture: &lt;/strong&gt;we did okay at getting video, images and other media, but it could have been a lot better had I put someone else in charge.  As an organizer, I thought I should be in charge of making sure things got captured, but this is a bigger task than I realized and it would have been better to assign it to someone else.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get to the idea pitches faster: &lt;/strong&gt;there were a lot of logistics and it took me too long to get to the meat of the first evening: ideas and team formation.  I would probably cut the lead time in half, but it’s hard to know the right balance of explaining vs. doing.  Practicing my presentation more could have helped with the efficiency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Walk through the event: &lt;/strong&gt;Friday evening went mostly well, but I should have walked through the logistics of team formation to make it a little less painful.  For example, one participant was very displeased with the result.  Out of 8 apps pitched, his ranked very high on the voting, but when devs chose which one to build the participant did not get any foot traffic.  I could have been more attentive and supportive and figured out ways to make the participant successful, but I wasn’t paying close enough attention.  Through a combination of better design and attentiveness I could have turned that problem into an opportunity.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;get-involved-stay-involved&quot;&gt;Get involved, stay involved&lt;/h3&gt;
+&lt;p&gt;As mentioned above, we are launching &lt;a href=&quot;http://www.meetup.com/cfabrigade/Denver-CO/756082/&quot; title=&quot;Code for Communities Civic Hacker Meetup&quot;&gt;Code for Communities meetups&lt;/a&gt;, which will continue in building this community.  We invite you all to join us.  You can also take the conversation online by &lt;a href=&quot;https://groups.google.com/d/forum/colorado-code-for-communities&quot; title=&quot;Code for Communities Google Group&quot;&gt;joining the Google Group&lt;/a&gt; and continue to use the &lt;a href=&quot;https://twitter.com/i/#!/search/realtime/%23code4communities&quot; title=&quot;Twitter hashtag search&quot;&gt;#code4communities hash tag on twitter&lt;/a&gt;.  Let us know if we missed anything or anyone in the comments below.&lt;/p&gt;
+
+            &lt;em&gt;&lt;/em&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;comments&quot;&gt;
+            &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+	(function(){
+		window.disqus_shortname = 'jasonlally';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://jasonlally.com/blog/2012-07-30-denvers-first-civic-hackathon';
+		window.disqus_identifier = 'blog-2012-07-30-denvers-first-civic-hackathon';
+		window.disqus_title = 'Denver's first civic hackathon inspires competition, collaboration';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-5&quot;&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Footer --&gt;
+&lt;div class=&quot;footer-wrapper&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;footer&gt;
+      &lt;p class=&quot;no-margin-bottom&quot; style=&quot;font-size: 80%;&quot;&gt;Unless stated otherwise; all works are &amp;copy; Jason Lally 2014 and licensed permissively under the &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot;&gt;MIT License&lt;/a&gt; for code and the &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;Creative Commons Attribution 3.0 Unported License&lt;/a&gt; for everything else (including content, media and design), enjoy!&lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Scripts --&gt;
+&lt;script &gt;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-418921-1');
+ga('send', 'pageview');&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/lightbox/js/lightbox-2.6.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Shed some light on government data</title>
+			<link href="http://jasonlally.com//blog/2010-03-17-shed-some-light-on-government-data"/>
+			<updated>2010-03-17T07:00:00.000Z</updated>
+			<id>http://jasonlally.com//blog/2010-03-17-shed-some-light-on-government-data</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;!-- Meta --&gt;
+  &lt;meta charset=&quot;utf-8&quot;/&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;/&gt;
+
+  &lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+     More info: h5bp.com/i/378 --&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;/&gt;
+
+  &lt;!-- Our site title and description --&gt;
+  &lt;title&gt;Shed some light on government data | Jason Lally&lt;/title&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;The official website of Jason Lally-urban planner, programmer and dabbler in design.&quot;/&gt;
+  &lt;meta name=&quot;keywords&quot; content=&quot;jason lally, urban planning, node.js, node, docpad, planning technology, civic technology, civic innovation, planning innovation&quot;/&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;Jason Lally&quot;/&gt;
+
+  &lt;!-- Output DocPad produced meta elements --&gt;
+  &lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.3&quot; /&gt;
+
+  &lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;
+
+  &lt;!-- Icons --&gt;
+  &lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+  &lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+  &lt;!--[if lt IE 9]&gt;
+  &lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+  &lt;![endif]--&gt;
+
+  &lt;!-- Styles --&gt;
+  &lt;link href='http://fonts.googleapis.com/css?family=Lustria|Lato:300,400' rel='stylesheet' type='text/css'&gt;
+  &lt;link href=&quot;//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/lightbox/css/lightbox.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body data-offset=&quot;70&quot; data-spy=&quot;scroll&quot; data-target=&quot;.navbar-jason&quot;&gt;
+&lt;!-- Menu --&gt;
+
+&lt;div class=&quot;navbar navbar-inverse navbar-fixed-top&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;navbar-header&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class=&quot;navbar-brand&quot; href=&quot;/#head&quot;&gt;Jason Lally&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;navbar-jason navbar-collapse collapse&quot;&gt;
+      &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;/#head&quot; class=&quot;sr-only hidden&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#projects&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;!--/.navbar-collapse --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Content --&gt;
+  &lt;div class=&quot;blog-wrapper&quot; style=&quot;background: url(/images/posts/US_capitol_building.jpg) no-repeat&quot;&gt;
+  &lt;div class=&quot;container blog&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-7 post-column&quot;&gt;
+        &lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+          &lt;h1&gt;Shed some light on government data&lt;/h1&gt;
+            &lt;p class=&quot;post-date&quot;&gt;Wed Mar 17 2010&lt;/p&gt;
+
+          &lt;div class=&quot;post-content&quot;&gt;
+            &lt;p&gt;I&amp;#39;ve been following the&lt;a href=&quot;http://www.sunlightfoundation.com/&quot;&gt; Sunlight Foundation&lt;/a&gt; for a little bit now and they are currently doing some great work around government and transparency.  There has been a much larger, if not perfect, commitment to transparency under the Obama administration.  For one example, go to &lt;a href=&quot;http://www.recovery.gov&quot;&gt;http://www.recovery.gov&lt;/a&gt; to see where all the Recovery Act money is going. While the efforts of the administration are acknowledged and praised, many in the transparency movement (including Sunlight) want to make sure these efforts are enshrined in law and culture.  To accomplish this, Sunlight &lt;a href=&quot;http://www.sunlightfoundation.com/campaign/&quot;&gt;outlines at least three things&lt;/a&gt; needed for an open government:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Transparency Laws requiring public government data to be published online and in real time - accessible to any citizen, at any time from any location.&lt;/li&gt;
+&lt;li&gt;Transparency tools harnessing the latest online and mobile technology, allowing citizens, journalists and bloggers to search, sort, mash and make use of government data.&lt;/li&gt;
+&lt;li&gt;A Transparency Movement of citizens advocating for online, real-time access to public government data, and engaging with government in new ways to hold government accountable and make it work better for them.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The first point was recently addressed with the announcement of the &lt;a href=&quot;http://www.sunlightfoundation.com/policy/poia/&quot;&gt;Public Online Information Act&lt;/a&gt; (POIA), which is being introduced by Rep. Steve Isreal.  Basically, the POIA:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;requires Executive Branch agencies to publish all publicly available information on the Internet in a timely fashion and in user-friendly formats. It also creates an advisory committee to help develop government-wide Internet publication policies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here is a brief video describing the law:&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/wD8dT236aS4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt; As for tools, the Sunlight Foundation sponsors an &lt;a href=&quot;http://www.sunlightfoundation.com/labs&quot;&gt;open source lab&lt;/a&gt; where government data is mashed up in all sorts of ways.  For example, over at the labs, they used&lt;a href=&quot;http://www.socrata.com&quot;&gt; Socrata&lt;/a&gt; to share a &lt;a href=&quot;http://sunlightlabs.com/blog/2010/lobbyists-and-white-house-visitors/&quot;&gt;list of White House visitors&lt;/a&gt; (released by the administration) cross referenced with lobbyist logs provided by the Center for Responsive Politics.  You can also download an iPhone app, &lt;a href=&quot;http://realtimecongress.org/&quot;&gt;Real Time Congress&lt;/a&gt;, to see what&amp;#39;s going on on the House and Senate floors throughout the day, including reading the text of bills under consideration.&lt;/p&gt;
+&lt;p&gt;On the final point about a transparency movement, Sunlight is launching &lt;a href=&quot;http://www.sunlightfoundation.com/campaign/&quot;&gt;their national campaign&lt;/a&gt; this Thursday, March 18.  This is a grassroots movement to educate and inspire people around what transparency can do for open government.&lt;/p&gt;
+&lt;p&gt;I like the approach that Sunlight is taking because they acknowledge that a more open government requires not just legislation, but an informed citizenry equipped with the right tools to make use of the data to create powerful information.  They are attempting to create an ecosystem of transparency that could have profound effects on government.&lt;/p&gt;
+&lt;p&gt;Free data is not in of itself a good thing without the skills to interpret and extract value from that data.  Many would rather keep government data locked away in paper formats that are hard or expensive to get at.  Many organizations, including lobby groups are in a better position to manipulate that kind of data.  Data that is free and online will not rid us of spin altogether, but it will be easier to hold the spinners accountable.  That&amp;#39;s why the &amp;quot;Campaign for Transparency&amp;quot; is so important, because it begins the process of shifting our culture to understand how to act and respond to a transparent government.  Imagine, as &lt;a href=&quot;http://www.wired.com/techbiz/it/magazine/17-03/wp_reboot&quot;&gt;Daniel Roth did in Wired Magazine&lt;/a&gt;, if SEC data were accessible in easy to use online formats that allowed anyone to peer into public financial reports.  Would someone sitting at a desk in Topeka, KS have discovered a flaw early enough in the system to bring national attention to it?&lt;/p&gt;
+&lt;p&gt;Why do I care so much about this?  Because it fits perfectly into my life ambition to bring people more wholly and effectively into civic engagement.  It aligns well to the work we do at &lt;a href=&quot;http://www.placematters.org&quot;&gt;PlaceMatters&lt;/a&gt; as good data is incredibly important to an informed planning process.&lt;/p&gt;
+
+            &lt;em&gt;&lt;/em&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;comments&quot;&gt;
+            &lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+	(function(){
+		window.disqus_shortname = 'jasonlally';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://jasonlally.com/blog/2010-03-17-shed-some-light-on-government-data';
+		window.disqus_identifier = 'blog-2010-03-17-shed-some-light-on-government-data';
+		window.disqus_title = 'Shed some light on government data';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;http://disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/article&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-5&quot;&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Footer --&gt;
+&lt;div class=&quot;footer-wrapper&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;footer&gt;
+      &lt;p class=&quot;no-margin-bottom&quot; style=&quot;font-size: 80%;&quot;&gt;Unless stated otherwise; all works are &amp;copy; Jason Lally 2014 and licensed permissively under the &lt;a href=&quot;http://creativecommons.org/licenses/MIT/&quot;&gt;MIT License&lt;/a&gt; for code and the &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;Creative Commons Attribution 3.0 Unported License&lt;/a&gt; for everything else (including content, media and design), enjoy!&lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Scripts --&gt;
+&lt;script &gt;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-418921-1');
+ga('send', 'pageview');&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/lightbox/js/lightbox-2.6.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
