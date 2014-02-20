@@ -7,6 +7,7 @@ layout: default
       <div class="col-md-7 post-column">
         <article id="post" class="post">
           <h1><%= @document.title %></h1>
+            <p class="post-date"><%= @document.date.toDateString() %></p>
 
           <div class="post-content">
             <%- @content %>
